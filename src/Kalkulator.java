@@ -1,6 +1,6 @@
 public class Kalkulator {
-    private double num1;
-    private double num2;
+    public double num1;
+    public double num2;
 
     public Kalkulator(double num1, double num2) {
         this.num1 = num1;
@@ -24,6 +24,7 @@ public class Kalkulator {
         } else {
             System.out.println("Error: Tidak bisa membagi dengan nol");
             return Double.NaN;
+
         }
     }
 }
