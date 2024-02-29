@@ -11,13 +11,13 @@ public class Main {
         double num2 = scanner.nextDouble();
 
         Kalkulator  calc = new Kalkulator(num1, num2);
-        System.out.println("Penjumlahan: " + calc.add());
-        System.out.println("Pengurangan: " + calc.substract());
-        System.out.println("Perkalian: " + calc.multiply());
-        System.out.println("Pembagian: " + calc.divide());
+        System.out.println("Penjumlahan: " + calc.tambah());
+        System.out.println("Pengurangan: " + calc.kurang());
+        System.out.println("Perkalian: " + calc.kali());
+        System.out.println("Pembagian: " + calc.bagi());
 
         System.out.println("Tampilan Segitiga: ");
-        Triangle.draw(9);
+        Triangle.draw(5);
 
         System.out.println("Kategori Hasil Penjumlahan: " + Kategori.getKategori(num1, num2));
     }

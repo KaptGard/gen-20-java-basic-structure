@@ -6,19 +6,19 @@ public class Kalkulator {
         this.num1 = num1;
         this.num2 = num2;
     }
-    public double add() {
+    public double tambah() {
         return num1 + num2;
     }
 
-    public double substract() {
+    public double kurang() {
         return num1-num2;
     }
 
-    public double multiply() {
+    public double kali() {
         return num1*num2;
     }
 
-    public double divide() {
+    public double bagi() {
         if (num2 !=0) {
             return num1/num2;
         } else {
