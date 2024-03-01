@@ -55,7 +55,7 @@ public class Main {
         System.out.println("Masukkan bilangan bulat positif n: ");
         int bulat = scanner.nextInt();
 
-        System.out.println("Bilangan bulat positif pertama yang habis dibagi 3 : ");
+        System.out.print("Bilangan bulat positif pertama yang habis dibagi 3 : ");
         Bilangan_bulat.Bilangan(bulat);
 
         System.out.println("Masukkan nilai n: ");
@@ -64,7 +64,7 @@ public class Main {
         JumlahDeret deret = new JumlahDeret();
         int jumlah = deret.programhitungan(hitungan);
 
-        System.out.println("Jumlah deret aritmatika adalah: " + hasil);
+        System.out.println("Jumlah deret aritmatika adalah: " + jumlah);
 
 
 
